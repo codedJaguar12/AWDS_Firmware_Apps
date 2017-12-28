@@ -1,6 +1,6 @@
 # Automated-Water-Distribution-System
 
-AWDS is a IOT project which provides to regulates the water suply to homes, the process to install the system is simple a dedicated hardware ( soon available at my other repository)  is installed at the water output to the house.The project is IOT based so an android app is also available , one for Customer and other one for Office.
+AWDS is a IOT project which provides to regulate the water suply to homes, the process to install the system is simple a dedicated hardware ( soon available at my other repository)  is installed at the water output to the house.The project is IOT based so an android app is also available , one for Customer and other one for Office.
 
 AWDS needs to link your AADHAR cards so that a better management of the water supply to area can be done.
 
@@ -51,3 +51,44 @@ dmesg | grep ttyUSB*
 avrdude -v -p -c arduino -P .COMxx -b 57600 -D -U flash:w: sketch_nov27.hex:i
 
 where COMxx is port no. eg. COM34
+
+## How to build app
+
+On command line do following
+
+$ Cordova create <app_name>
+$ cd <app_name>
+$ cordova build
+
+
+## config.xml for this application
+
+Below is a sample config.xml file:
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.iot" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>IOTone</name>
+  <description>
+An IOT app
+  </description>
+  <author email="rohanverma2@acm.org" ">
+IOTone team
+  </author>
+  <content src=”<YOUR_DOMAIN_NAME_ON_WHICH_APP_IS_HOSTED>” />
+  <plugin name="cordova-plugin-whitelist" spec="1" />
+  <access origin="*" />
+  <allow-intent href="http://*/*" />
+  <allow-intent href="https://*/*" />
+  <allow-intent href="tel:*" />
+  <allow-intent href="sms:*" />
+  <allow-intent href="mailto:*" />
+  <allow-intent href="geo:*" />
+  <platform name="android">
+      <allow-intent href="market:*" />
+  </platform>
+  <platform name="ios">
+      <allow-intent href="itms:*" />
+      <allow-intent href="itms-apps:*" />
+  </platform>
+</widget>
+
+
