@@ -6,28 +6,27 @@ AWDS needs to link your AADHAR cards so that a better management of the water su
 
 
 ## PLATFORM REQUIRED
-* Linux 64 bit / Windows 7 SP1/8/8.1/10 64 Bit
+* Linux 64 bit , Windows 7 SP1/8/8.1/10 64 Bit
 * Android SDK
 * iOS SDK
 * Windows Phone 8.1/10 SDK
 * Apache Cordova
 * arm-g++-linux-eabi (ARM Cross Compiler for Debian Jessie)
 * Apache Server with PHP 5.4 support
-* PHP 5 with memcache support
-* Atmel Studio 6 / 7
+* Atmel Studio 7
 * Avrdude command line tool
 * Domain name + Hosting
 
 ## COMPILING FIRMWARE FOR DEVICE 
 * Install the Atmel Studio 7 then import or open the Firmware in the Project Folder as follows:
 
-![alt_text](/screenshots/atmel_studio.png) 
+![Atmel Studio](/screenshots/atmel_studio.png) 
 
-![alt_text](/screenshots/compile_success.png)
+![compilation successfull](/screenshots/compile_success.png)
 
 * Above will be displayed when we will build the solution, to build the “Firmware Project” press F7.
 
-![alt_text](/screenshots/file_tree.png)
+![tree](/screenshots/file_tree.png)
 
 * Check the file sketch_nov27.hex then burn it to device using avrdude command line utility
 * Other files with same name are files for recording eeprom data on to the chip.
@@ -48,6 +47,7 @@ avrdude -v -p atmega2560 -c arduino -P /dev/ttyUSB0 -b 57600 -D -U flash:w: sket
 dmesg | grep ttyUSB*
 
 ## Command Line via avrdude (Windows)
+
 avrdude -v -p -c arduino -P .COMxx -b 57600 -D -U flash:w: sketch_nov27.hex:i
 
 where COMxx is port no. eg. COM34
