@@ -56,16 +56,16 @@ where COMxx is port no. eg. COM34
 
 On command line do following
 
-$ Cordova create <app_name>
+$ cordova create <app_name>
 
 $ cd <app_name>
 
 $ cordova build
 
 
-## config.xml for this application
+## Please edit config.xml for this application
 
-Below is a sample config.xml file:
+Below is a config.xml file, fill in your domain/server address on which app is hosted:
 ```
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.iot" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
