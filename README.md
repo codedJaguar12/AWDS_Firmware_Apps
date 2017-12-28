@@ -22,9 +22,13 @@ AWDS needs to link your AADHAR cards so that a better management of the water su
 * Install the Atmel Studio 7 then import or open the Firmware in the Project Folder as follows:
 
 ![alt_text](/screenshots/atmel_studio.png) 
+
 ![alt_text](/screenshots/compile_success.png)
+
 * Above will be displayed when we will build the solution, to build the “Firmware Project” press F7.
+
 ![alt_text](/screenshots/file_tree.png)
+
 * Check the file sketch_nov27.hex then burn it to device using avrdude command line utility
 * Other files with same name are files for recording eeprom data on to the chip.
 * Dependencies contain standard prototypes for eeprom read, eeprom write and eeprom clear.
