@@ -1,4 +1,4 @@
-# Automated-Water-Distribution-System-Interface
+# Automated-Water-Distribution-System
 
 AWDS is a IOT project which provides to regulates the water suply to homes, the process to install the system is simple a dedicated hardware ( soon available at my other repository)  is installed at the water output to the house.The project is IOT based so an android app is also available , one for Customer and other one for Office.
 
