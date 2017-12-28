@@ -1,0 +1,3 @@
+#!/bin/bash
+arm-gcc-linux-eabi SSLHost.c -o SSL -lcrypto -lssl
+arm-gcc-linux-eabi Interface.c -o Interface 
