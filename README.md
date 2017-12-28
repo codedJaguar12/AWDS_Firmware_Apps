@@ -5,7 +5,7 @@ AWDS is a IOT project which provides to regulates the water suply to homes, the 
 AWDS needs to link your AADHAR cards so that a better management of the water supply to area can be done.
 
 
-##PLATFORM REQUIRED
+## PLATFORM REQUIRED
 * Linux 64 bit / Windows 7 SP1/8/8.1/10 64 Bit
 * Android SDK
 * iOS SDK
@@ -18,7 +18,7 @@ AWDS needs to link your AADHAR cards so that a better management of the water su
 * Avrdude command line tool
 * Domain name + Hosting
 
-##COMPILING FIRMWARE FOR DEVICE 
+## COMPILING FIRMWARE FOR DEVICE 
 * Install the Atmel Studio 7 then import or open the Firmware in the Project Folder as follows:
 
 [!alt_text][screenshots/atmel_studio.png]
@@ -34,7 +34,7 @@ AWDS needs to link your AADHAR cards so that a better management of the water su
 
 
  
-##Command Line via avrdude (Linux)
+## Command Line via avrdude (Linux)
 
 avrdude -v -p atmega2560 -c arduino -P /dev/ttyUSB0 -b 57600 -D -U flash:w: sketch_nov27.hex:i
 
@@ -43,7 +43,7 @@ avrdude -v -p atmega2560 -c arduino -P /dev/ttyUSB0 -b 57600 -D -U flash:w: sket
 3. -P Specifies the communication port. As soon as the device is hooked up to your USB, it should be assigned a file in /dev/, and this is the string that needs to be passed to the -P option. The easiest way to find this is just
 dmesg | grep ttyUSB*
 
-##Command Line via avrdude (Windows)
+## Command Line via avrdude (Windows)
 avrdude -v -p -c arduino -P .COMxx -b 57600 -D -U flash:w: sketch_nov27.hex:i
 
 where COMxx is port no. eg. COM34
