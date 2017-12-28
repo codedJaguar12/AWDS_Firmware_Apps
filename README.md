@@ -1,8 +1,6 @@
 # Automated-Water-Distribution-System
 
-AWDS is a IOT project which provides to regulate the water suply to homes, the process to install the system is simple a dedicated hardware ( soon available at my other repository)  is installed at the water output to the house.The project is IOT based so an android app is also available , one for Customer and other one for Office.
-
-AWDS needs to link your AADHAR cards so that a better management of the water supply to area can be done.
+Note: AWDS needs to link your AADHAR cards so that a better management of the water supply to area can be done.
 
 
 ## PLATFORM REQUIRED
