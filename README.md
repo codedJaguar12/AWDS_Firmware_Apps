@@ -23,9 +23,8 @@ Note: AWDS needs to link your AADHAR cards so that a better management of the wa
 ![compilation successfull](/screenshots/compile_success.png)
 
 * Above will be displayed when we will build the solution, to build the “Firmware Project” press F7.
-<div style="float:left;margin:0 10px 10px 0" markdown="1">
-    ![compilation successfull](/screenshots/file_tree.png) 
-</div>
+
+    ![compilation successfull](/screenshots/file_tree.png){: style="float:left"}
 
     * Check the file sketch_nov27.hex then burn it to device using avrdude command line utility. 
     * Other files with same name are files for recording eeprom data on to the chip. 
