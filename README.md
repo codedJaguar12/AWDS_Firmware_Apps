@@ -27,14 +27,13 @@ Note: AWDS needs to link your AADHAR cards so that a better management of the wa
 
     ![compilation successfull](/screenshots/file_tree.png) 
     
+</div>
     * Check the file sketch_nov27.hex then burn it to device using avrdude command line utility 
     * Other files with same name are files for recording eeprom data on to the chip. 
     * Dependencies contain standard prototypes for eeprom read, eeprom write and eeprom clear. 
     * Dependencies also contain standard prototypes for interrupt in software mode and also external interrupts. 
     * Entire firmware size should be less than 256KB in case if modified in future. 
     * EEPROM is only 4KB so needs to be erased periodically for making space on device.
-</div>
-
 
 
 
