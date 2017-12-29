@@ -26,7 +26,7 @@ Note: AWDS needs to link your AADHAR cards so that a better management of the wa
 
 | - | - |
 |---|---|
-| ![compilation successfull](/screenshots/file_tree.png) | kiokodgtk |
+| ![compilation successfull](/screenshots/file_tree.png) | 
 
     * Check the file sketch_nov27.hex then burn it to device using avrdude command line utility. 
     * Other files with same name are files for recording eeprom data on to the chip. 
@@ -35,7 +35,7 @@ Note: AWDS needs to link your AADHAR cards so that a better management of the wa
     * Entire firmware size should be less than 256KB in case if modified in future. 
     * EEPROM is only 4KB so needs to be erased periodically for making space on device.
 
-
+|
 
 ## Command Line via avrdude (Linux)
 
