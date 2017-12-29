@@ -23,7 +23,7 @@ Note: AWDS needs to link your AADHAR cards so that a better management of the wa
 ![compilation successfull](/screenshots/compile_success.png)
 
 * Above will be displayed when we will build the solution, to build the “Firmware Project” press F7.
-| - | - |
+
 |---|---|
 | ![compilation successfull](/screenshots/file_tree.png) | kiokodgtk |
 
