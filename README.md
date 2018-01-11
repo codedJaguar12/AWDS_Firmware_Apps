@@ -4,8 +4,6 @@ Note: AWDS needs to link your AADHAR cards so that a better management of the wa
 
 
 ```
-THE MIT LICENSE
-
 Copyright (c) 2018 Rohan Verma cryptecx.xyz
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
